@@ -1,0 +1,1787 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/simeon/ontologies/2020/5/fatigue_model"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/simeon/ontologies/2020/5/fatigue_model">
+    <Prefix name="" IRI="http://www.semanticweb.org/simeon/ontologies/2020/5/fatigue_model"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_High_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_Low_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_Medium_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccelerationYawRate_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocityI_Normal_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_High_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_Low_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularVelocity_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropySWA_Awake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropySWA_Drowsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropySWA_VeryDrowsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropyYAW_drowsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropyYAW_normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproximateEntropyYAW_veryDrowsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_High_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_Low_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_Normal_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Extreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanSWA_measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Extreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeanYaw_reference_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Extreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SWA_measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYAw_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_Extreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_Large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VarYaw_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicleBasedMeasurmentFatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YawAngle_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YawAngle_measure_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Extreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yaw_reference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApproximateEntropieMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeanYawMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutPutValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceMeanSWASmall"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSWAMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVarYawMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasYawAccelerationRateMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasYawMeasure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrection_Low_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequencyCorrection_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeanSWA_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWAMeasured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSWA_reference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeWindows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frequencyCorrection_High_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frequencyCorrection_Low_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frequencyCorrection_Normal_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meanSWA_Extreme_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meanSWA_Large_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meanSWA_Small_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meanSWA_measure_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swa_Extreme_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swa_Large_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swa_Small_reference_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swa_measure_1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AngularVelocity_measure"/>
+        <ObjectUnionOf>
+            <Class IRI="#AngularVelocity_High"/>
+            <Class IRI="#AngularVelocity_Low"/>
+            <Class IRI="#AngularVelocity_Normal"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+        <ObjectUnionOf>
+            <Class IRI="#ApproximateEntropySWA_Awake"/>
+            <Class IRI="#ApproximateEntropySWA_Drowsy"/>
+            <Class IRI="#ApproximateEntropySWA_VeryDrowsy"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FrequencyCorrection_measure"/>
+        <ObjectUnionOf>
+            <Class IRI="#FrequencyCorrection_High"/>
+            <Class IRI="#FrequencyCorrection_Low"/>
+            <Class IRI="#FrequencyCorrection_Normal"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MeanSWA_measure"/>
+        <ObjectUnionOf>
+            <Class IRI="#MeanSWA_Extreme"/>
+            <Class IRI="#MeanSWA_Large"/>
+            <Class IRI="#MeanSWA_Small"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SWA_measure"/>
+        <ObjectUnionOf>
+            <Class IRI="#SWA_Extreme"/>
+            <Class IRI="#SWA_Large"/>
+            <Class IRI="#SWA_Small"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_High"/>
+        <Class IRI="#AccelerationYawRate_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_High_reference"/>
+        <Class IRI="#AccelerationYawRate_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_Low"/>
+        <Class IRI="#AccelerationYawRate_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_Low_reference"/>
+        <Class IRI="#AccelerationYawRate_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_Medium"/>
+        <Class IRI="#AccelerationYawRate_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_Medium_reference"/>
+        <Class IRI="#AccelerationYawRate_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_measure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccelerationYawRate_reference"/>
+        <Class IRI="#YawAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocityI_Normal_reference"/>
+        <Class IRI="#AngularVelocity_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_High"/>
+        <Class IRI="#AngularVelocity_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_High_reference"/>
+        <Class IRI="#AngularVelocity_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_Low"/>
+        <Class IRI="#AngularVelocity_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_Low_reference"/>
+        <Class IRI="#AngularVelocity_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_Normal"/>
+        <Class IRI="#AngularVelocity_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_measure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularVelocity_reference"/>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropySWA_Awake"/>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropySWA_Drowsy"/>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropySWA_VeryDrowsy"/>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropyYAW_drowsy"/>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropyYAW_normal"/>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproximateEntropyYAW_veryDrowsy"/>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_High"/>
+        <Class IRI="#FrequencyCorrection_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_High_reference"/>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_Low"/>
+        <Class IRI="#FrequencyCorrection_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_Low_reference"/>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_Normal"/>
+        <Class IRI="#FrequencyCorrection_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_Normal_reference"/>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_measure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTimeWindows"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Extreme"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+        <Class IRI="#MeanSWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Large"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Large_reference"/>
+        <Class IRI="#MeanSWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Large_reference"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Small"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Small_reference"/>
+        <Class IRI="#MeanSWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_Small_reference"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_measure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMeanSWAMeasured"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanSWA_measure_reference"/>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Extreme"/>
+        <Class IRI="#MeanYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Extreme_reference"/>
+        <Class IRI="#MeanYaw_reference_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Large"/>
+        <Class IRI="#MeanYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Large_reference"/>
+        <Class IRI="#MeanYaw_reference_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Small"/>
+        <Class IRI="#MeanYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_Small_reference"/>
+        <Class IRI="#MeanYaw_reference_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_measure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeanYaw_reference_reference"/>
+        <Class IRI="#YawAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Extreme"/>
+        <Class IRI="#SWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Extreme_reference"/>
+        <Class IRI="#SWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Large"/>
+        <Class IRI="#SWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Large_reference"/>
+        <Class IRI="#SWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Small"/>
+        <Class IRI="#SWA_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_Small_reference"/>
+        <Class IRI="#SWA_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_measure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasSWAMeasured"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTimeMeasure"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SWA_measure_reference"/>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <Class IRI="#Vehicle_Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+            <Class IRI="#AngularVelocity_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+            <Class IRI="#ApproximateEntropySWA_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+            <Class IRI="#FrequencyCorrection_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+            <Class IRI="#MeanSWA_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSWAMeasure"/>
+            <Class IRI="#SWA_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteeringWheelAngle_measure_reference"/>
+        <Class IRI="#Vehicle_Measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYAw_Extreme_reference"/>
+        <Class IRI="#VarYaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_Extreme"/>
+        <Class IRI="#VarYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_Large"/>
+        <Class IRI="#VarYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_Large_reference"/>
+        <Class IRI="#VarYaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_Small"/>
+        <Class IRI="#VarYaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_Small_reference"/>
+        <Class IRI="#VarYaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_measure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VarYaw_reference"/>
+        <Class IRI="#YawAngle_measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle_Measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+            <Class IRI="#SteeringWheelAngle_measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YawAngle_measure"/>
+        <Class IRI="#Vehicle_Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YawAngle_measure_reference"/>
+        <Class IRI="#Vehicle_Measure_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Extreme"/>
+        <Class IRI="#Yaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Extreme_reference"/>
+        <Class IRI="#Yaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Large"/>
+        <Class IRI="#Yaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Large_reference"/>
+        <Class IRI="#Yaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Small"/>
+        <Class IRI="#Yaw_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_Small_reference"/>
+        <Class IRI="#Yaw_reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_measure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yaw_reference"/>
+        <Class IRI="#YawAngle_measure_reference"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AccelerationYawRate_High"/>
+        <Class IRI="#AccelerationYawRate_Low"/>
+        <Class IRI="#AccelerationYawRate_Medium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AccelerationYawRate_High_reference"/>
+        <Class IRI="#AccelerationYawRate_Low_reference"/>
+        <Class IRI="#AccelerationYawRate_Medium_reference"/>
+        <Class IRI="#Yaw_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AccelerationYawRate_measure"/>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+        <Class IRI="#MeanYaw_measure"/>
+        <Class IRI="#VarYaw_measure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AccelerationYawRate_reference"/>
+        <Class IRI="#MeanYaw_reference_reference"/>
+        <Class IRI="#VarYaw_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AngularVelocityI_Normal_reference"/>
+        <Class IRI="#AngularVelocity_High_reference"/>
+        <Class IRI="#AngularVelocity_Low_reference"/>
+        <Class IRI="#FrequencyCorrection_measure_reference"/>
+        <Class IRI="#MeanSWA_measure_reference"/>
+        <Class IRI="#SWA_measure_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AngularVelocity_High"/>
+        <Class IRI="#AngularVelocity_Low"/>
+        <Class IRI="#AngularVelocity_Normal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ApproximateEntropySWA_Awake"/>
+        <Class IRI="#ApproximateEntropySWA_Drowsy"/>
+        <Class IRI="#ApproximateEntropySWA_VeryDrowsy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ApproximateEntropyYAW_drowsy"/>
+        <Class IRI="#ApproximateEntropyYAW_normal"/>
+        <Class IRI="#ApproximateEntropyYAW_veryDrowsy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FrequencyCorrection_High"/>
+        <Class IRI="#FrequencyCorrection_Low"/>
+        <Class IRI="#FrequencyCorrection_Normal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FrequencyCorrection_High_reference"/>
+        <Class IRI="#FrequencyCorrection_Low_reference"/>
+        <Class IRI="#FrequencyCorrection_Normal_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MeanSWA_Extreme"/>
+        <Class IRI="#MeanSWA_Large"/>
+        <Class IRI="#MeanSWA_Small"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+        <Class IRI="#MeanSWA_Large_reference"/>
+        <Class IRI="#MeanSWA_Small_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MeanYaw_Extreme"/>
+        <Class IRI="#MeanYaw_Large"/>
+        <Class IRI="#MeanYaw_Small"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MeanYaw_Extreme_reference"/>
+        <Class IRI="#MeanYaw_Large_reference"/>
+        <Class IRI="#MeanYaw_Small_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SWA_Extreme"/>
+        <Class IRI="#SWA_Large"/>
+        <Class IRI="#SWA_Small"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SWA_Extreme_reference"/>
+        <Class IRI="#SWA_Large_reference"/>
+        <Class IRI="#SWA_Small_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#VarYAw_Extreme_reference"/>
+        <Class IRI="#VarYaw_Large_reference"/>
+        <Class IRI="#VarYaw_Small_reference"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#VarYaw_Extreme"/>
+        <Class IRI="#VarYaw_Large"/>
+        <Class IRI="#VarYaw_Small"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Yaw_Extreme"/>
+        <Class IRI="#Yaw_Large"/>
+        <Class IRI="#Yaw_Small"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Yaw_Extreme_reference"/>
+        <Class IRI="#Yaw_Small_reference"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#FrequencyCorrection_High_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_High_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FrequencyCorrection_Low_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_Low_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FrequencyCorrection_Normal_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_Normal_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+        <NamedIndividual IRI="#meanSWA_Extreme_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeanSWA_Large_reference"/>
+        <NamedIndividual IRI="#meanSWA_Large_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeanSWA_Small_reference"/>
+        <NamedIndividual IRI="#meanSWA_Small_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeanSWA_measure"/>
+        <NamedIndividual IRI="#meanSWA_measure_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SWA_Extreme_reference"/>
+        <NamedIndividual IRI="#swa_Extreme_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SWA_Large_reference"/>
+        <NamedIndividual IRI="#swa_Large_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SWA_Small_reference"/>
+        <NamedIndividual IRI="#swa_Small_reference_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SWA_measure"/>
+        <NamedIndividual IRI="#swa_measure_1"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_High_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequencyCorrection_Low_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_Low_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+        <NamedIndividual IRI="#frequencyCorrection_Normal_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+        <NamedIndividual IRI="#meanSWA_Extreme_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+        <NamedIndividual IRI="#meanSWA_Large_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+        <NamedIndividual IRI="#meanSWA_Small_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+        <NamedIndividual IRI="#meanSWA_measure_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeWindows"/>
+        <NamedIndividual IRI="#meanSWA_measure_1"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+        <NamedIndividual IRI="#swa_Extreme_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+        <NamedIndividual IRI="#swa_Large_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+        <NamedIndividual IRI="#swa_Small_reference_value"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSWAMeasured"/>
+        <NamedIndividual IRI="#swa_measure_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApproximateEntropieMeasure"/>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeanYawMeasure"/>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSWAMeasure"/>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVarYawMeasure"/>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasYawAccelerationRateMeasure"/>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasYawMeasure"/>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMeanYawMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasReferenceMeanSWASmall"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasReferenceMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSWAMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasVarYawMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasYawAccelerationRateMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasYawMeasure"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApproximateEntropieMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeanYawMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceMeanSWASmall"/>
+        <Class IRI="#MeanSWA_Small"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceMeasure"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSWAMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+        <Class IRI="#Vehicle_Measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVarYawMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasYawAccelerationRateMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+        <Class IRI="#Vehicle_Measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasYawMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAngularVelocityMeasure"/>
+        <Class IRI="#AngularVelocity_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApproximateEntropieMeasure"/>
+        <Class IRI="#ApproximateEntropyYAW_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApproximateEntropyMeasure"/>
+        <Class IRI="#ApproximateEntropySWA_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFrequencyCorrectionMeasured"/>
+        <Class IRI="#FrequencyCorrection_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeanYawMeasure"/>
+        <Class IRI="#MeanYaw_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeansSWAMeasure"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceMeanSWASmall"/>
+        <Class IRI="#MeanSWA_Small_reference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceMeasure"/>
+        <Class IRI="#MeanSWA_measure_reference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSWAMeasure"/>
+        <Class IRI="#SWA_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSteeringWheelAngleMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVarYawMeasure"/>
+        <Class IRI="#VarYaw_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasYawAccelerationRateMeasure"/>
+        <Class IRI="#AccelerationYawRate_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasYawAngleMeasure"/>
+        <Class IRI="#YawAngle_measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasYawMeasure"/>
+        <Class IRI="#Yaw_measure"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+        <DataProperty IRI="#hasFrequencyCorrection"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+        <DataProperty IRI="#hasFrequencyCorrection_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFrequencyCorrection_Low_reference"/>
+        <DataProperty IRI="#hasFrequencyCorrection_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+        <DataProperty IRI="#hasFrequencyCorrection_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+        <DataProperty IRI="#hasMeanSWA"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+        <DataProperty IRI="#hasMeanSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+        <DataProperty IRI="#hasMeanSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+        <DataProperty IRI="#hasMeanSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSWAMeasured"/>
+        <DataProperty IRI="#hasSWA"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+        <DataProperty IRI="#hasSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+        <DataProperty IRI="#hasSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+        <DataProperty IRI="#hasSWA_reference"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTimeMeasure"/>
+        <DataProperty IRI="#hasTime"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTimeWindows"/>
+        <DataProperty IRI="#hasTime"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSWAMeasured"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTimeWindows"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+        <Class IRI="#MeanSWA_measure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+        <Class IRI="#MeanSWA_Extreme_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+        <Class IRI="#MeanSWA_Large_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+        <Class IRI="#MeanSWA_Small_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSWAMeasured"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+        <Class IRI="#SWA_Extreme_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+        <Class IRI="#SWA_Large_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+        <Class IRI="#SWA_Small_reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeMeasure"/>
+        <Class IRI="#SteeringWheelAngle_measure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeWindows"/>
+        <ObjectUnionOf>
+            <Class IRI="#FrequencyCorrection_measure"/>
+            <Class IRI="#MeanSWA_measure"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeanSWAMeasured"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSWAMeasured"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSWA_Extreme_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSWA_Large_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSWA_Small_reference"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeMeasure"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeWindows"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Low_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Low_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Low"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Small"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Large"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Small"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SteeringWheelAngle_measure</IRI>
+        <Literal>Describe all the measure by the steering wheel angle sensor</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

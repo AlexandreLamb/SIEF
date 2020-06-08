@@ -1,0 +1,366 @@
+ <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_High_reference"/>
+                <Variable IRI="urn:swrl:var#mHref"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vHref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_High"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrectionMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Low_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Low_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Normal"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFrequencyCorrection_Normal_reference"/>
+                <Variable IRI="urn:swrl:var#mNref"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vNref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#FrequencyCorrection_Low"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Extreme"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMeanSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#MeanSWA_Small"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Large"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Extreme_reference"/>
+                <Variable IRI="urn:swrl:var#mEref"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vEref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Extreme"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SWA_measure"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWAMeasured"/>
+                <Variable IRI="urn:swrl:var#m"/>
+                <Variable IRI="urn:swrl:var#v"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Small_reference"/>
+                <Variable IRI="urn:swrl:var#mSref"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasSWA_Large_reference"/>
+                <Variable IRI="urn:swrl:var#mLref"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vSref"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#v"/>
+                <Variable IRI="urn:swrl:var#vLref"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SWA_Small"/>
+                <Variable IRI="urn:swrl:var#m"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
